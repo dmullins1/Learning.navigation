@@ -10,8 +10,10 @@ namespace Learning.navigation
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
-        }
+            MainPage = new NavigationPage(new MainPage());
+            (MainPage as NavigationPage).BarBackgroundColor = (Color)Application.Current.Resources["Primary"];
+
+         }
 
         protected override void OnStart()
         {

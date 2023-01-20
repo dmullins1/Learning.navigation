@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Metadata file 'C:\Users\damio\source\repos\Learning.navigation\Learning.navigation\obj\Debug\netstandard2.0\ref\Learning.navigation.dll' could not be found
+dotnet_diagnostic.CS0006.severity = none
