@@ -31,13 +31,13 @@ namespace Learning.navigation.Views
         }
         private void PopClick(object sender, EventArgs e)
         {
-            Navigation.PopModalAsync();
+            Navigation.PopAsync();
         }
         private void PushClick(object sender, EventArgs e)
         {
             var page = new MyNewPage();
             page.Level = Level + 1;
-            Navigation.PushModalAsync(page);
+            Navigation.PushAsync(page);
         }
     }
 }

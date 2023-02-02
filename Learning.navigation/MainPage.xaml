@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Learning.navigation.MainPage"
-             Title=" Learning navigation">
+             Title=" Learning Navigation!">
 
     <StackLayout BackgroundColor ="{StaticResource Canvas}">
         <Frame BackgroundColor="Cornsilk" Padding=" 24" CornerRadius="0">
@@ -10,7 +10,7 @@
         </Frame>
         <Button Text="Push navigation" Clicked="PushPage"/>
         <Button Text="Push navigation (No Animation)" Clicked="PushPageNoAnimation"/>
-        <Button Text= "Modal" Clicked = "ModalButton"/>
+        <Button Text= "Login" Clicked = "ModalButton"/>
     </StackLayout>
 
 </ContentPage>
